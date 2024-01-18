@@ -1,16 +1,68 @@
-# weather_app
+```markdown
+# Flutter Weather App
 
-A new Flutter project.
+A simple weather app built with Flutter that provides current weather information based on the user's location using the OpenWeatherMap API.
+
+## Features
+
+- Fetches and displays the current weather information based on the user's location.
+- Displays the current location (latitude and longitude) retrieved using the device's GPS.
+- Basic error handling for location retrieval and weather data fetching.
+- Supports both metric and imperial units for temperature.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this app, you'll need to follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK installed on your machine.
+- An API key from OpenWeatherMap. (Replace "YOUR_API_KEY" in `main.dart` with your actual API key.)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/sakarpaudel/weather_app
+   ```
+
+2. Change into the project directory:
+
+   ```
+   cd your-flutter-weather-app
+   ```
+
+3. Install dependencies:
+
+   ```
+   flutter pub get
+   ```
+
+4. Run the app:
+
+   ```
+   flutter run
+   ```
+
+### Configuration
+
+- Open `main.dart` and replace "YOUR_API_KEY" with your actual OpenWeatherMap API key.
+
+## Screenshots
+
+
+
+## Built With
+
+- Flutter - A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+- OpenWeatherMap API - Weather data provider.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+
+```
