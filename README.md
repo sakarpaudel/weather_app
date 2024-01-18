@@ -19,6 +19,7 @@ To run this app, you'll need to follow these steps:
 - Flutter SDK installed on your machine.
 - An API key from OpenWeatherMap. (Replace "YOUR_API_KEY" in `main.dart` with your actual API key.)
 
+```
 ### Installation
 
 1. Clone the repository:
